@@ -1,0 +1,187 @@
+@media screen and (max-width:1440px) {
+    .section4 .text5 {
+        left: 30%;
+    }
+    .section5 .parent {
+        left: 100px;
+    }
+    .section8 .parent5 {
+        padding-left: 105px;
+    }
+    .section8 .text5 {
+        text-align: start;
+        margin-top: -310px;
+    }
+    .section8 .parent-text .text5:first-of-type {
+        margin-left: 26px;
+    }
+    .section10 .inputs .name {
+        gap: 80px;
+    }
+    footer div > a> h1 {
+        font: 700 40px sans-serif;
+        margin-top: -65px;
+        margin-left: -25px;
+    }
+}
+@media screen and (max-width: 1040px) {
+    nav ul {
+        margin-top: 35px;
+        left: 15px;
+    }
+    nav ul li {
+        margin-right: 25px;
+        font: 400 14px sans-serif;
+    }
+    .section1 h1 {
+        font: bold 110px sans-serif;
+    }
+    .section2 .text h1 {
+        font: 600 32px sans-serif;
+    }
+    .section1 button {
+        width: 200px;
+        height: 40px;
+    }
+    .section2 .img img {
+        width: 375px;
+        height: 450px;
+        margin-left: 80px;
+    }
+    .section2 .text p {
+        font-size: 12px;
+    }
+    .section2 button {
+        width: 200px;
+        height: 40px;
+    }
+    .section3 .rename h1 {
+        font: 800 45px 'Montserrat', sans-serif;
+    }
+    .section3 .rename h4 {
+        font: 400 12px 'Montserrat', sans-serif;
+    }
+    .section3 {
+        height: 115vh;
+        padding: 0px 85px;
+    }
+    .section3 .contact h4 {
+        font: 400 14px 'Montserrat', sans-serif;
+    }
+    .section4 .text5 {
+    left: 19%;
+    }
+    .section5 {
+        position: relative;
+        height: 255vh;
+        width: 100%;
+        background-color: #171717;
+        display: flex;
+        padding-top: 100px;
+    }
+    .section5 .lier h1 {
+        font: bolder 35px sans-serif;
+        text-shadow: 0px 0px 0px #fff;
+    }
+    .section5 .lier ul li {
+        margin-right: 20px;
+        font-size: 14px;
+    }
+    .section5 .parent {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 15px;
+        column-gap: 14px;
+        position: absolute;
+        top: 270px;
+        left: 210px;
+        border: 1x solid #fff;
+        border: 1x solid #fff;
+    }
+    .section5 .parent .child {
+        width: 300px;
+        height: 190px;
+        background-color: #fff;
+        border: 1px solid #000;
+        cursor: pointer;
+    }
+    .section5 .parent .child img {
+        /* background: url(image/pf2.jpg) no-repeat center / cover; */
+        width: 298px;
+        height: 190px;
+        filter: contrast(100%);
+        transition: .5s;
+    }
+    .section5 .parent .child:nth-child(5) {
+        background: url(image/pf5.jpg) no-repeat center / cover;
+        height: 190px;
+    }
+    .section5 .parent .child:nth-child(7) {
+        background: url(image/pf8.jpg) no-repeat center / cover;
+        margin-top: 0px;
+    }
+    .section5 .parent .child:nth-child(8) {
+        background: url(image/pf9.png) no-repeat center / cover;
+        height: 190px;
+    }
+    .section5 .parent .child:nth-child(9) {
+        background: url(http://html.lionode.com/jobado/layout/images/pf7.gif) no-repeat center / cover;
+        margin-top: 0px;
+    }
+    .section5 .parent button {
+        padding: 10px 40px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        cursor: pointer;
+        margin-top: 257px;
+        margin-left: -17.5%;
+        width: 260px;
+        height: 45px;
+        background-color: #171717;
+        color: #fff;
+        border: 2px solid #fff;
+        transition: .4s;
+        word-spacing: 5px;
+    }
+    .section6 > h1 {
+        font: bold 38px 'Montserrat', sans-serif;
+        color: #fff;
+        text-shadow: 3px 0px 0px #fff;
+        margin-bottom: 20px;
+        letter-spacing: 2px;
+    }
+    .section6 > h4 {
+        font: 400 13px 'Montserrat', sans-serif;
+        color: #fff;
+        word-spacing: 2px;
+        line-height: 25px;
+    }
+    .section6 .parent .jpg .jpg1 img {
+        width: 100%;
+        height: 445px;
+        filter: grayscale(1);
+        transition: .5s;
+    }
+    .section6 .parent .jpg .jpg1 ul li {
+        font-size: 27px;
+        margin-top: 20px;
+        margin-right: 20px;
+        color: #fff;
+        transition: .3s;
+    }
+    .section6 .parent .jpg .jpg1 h1 {
+        font: 500 20px sans-serif;
+        color: #fff;
+        letter-spacing: 1px;
+        word-spacing: 4px;
+        margin-top: 15px;
+        transition: .3s;
+        cursor: pointer;
+    }
+    .section6 .parent .jpg .jpg1 h4 {
+        color: #808080;
+        margin-top: 15px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+    }
+}
